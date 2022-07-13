@@ -14,11 +14,11 @@ class DuckDuckGoSearchPage:
     
     # Locators
     
-    SEARCH_INPUT = (By.ID,'searchbox_input')
+    SEARCH_INPUT = (By.ID,'search_form_input_homepage')
     
     # Initializer
     
-    def __init__(self):
+    def __init__(self, browser):
         self.browser = browser
         
     # Interaction Methods
