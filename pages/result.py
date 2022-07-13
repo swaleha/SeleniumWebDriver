@@ -7,10 +7,10 @@ from selenium.webdriver.common.by import By
 
 class DuckDuckGoResult:
 
-    RESULT_LINKS = (By.CSS_SELECTOR, 'a.result-title-a')
+    RESULT_LINKS = (By.CLASS_NAME, 'eVNpHGjtxRBq_gLOfGDr')
     SEARCH_INPUT = (By.ID, 'search_form_input')
     
-    def __init__(self):
+    def __init__(self, browser):
         self.browser = browser
         
     def result_link_titles(self):
