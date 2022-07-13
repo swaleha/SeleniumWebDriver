@@ -5,7 +5,7 @@ the page object for the DuckDuckGo search result page.
 
 from selenium.webdriver.common.by import By
 
-class DuckDuckGoResult:
+class DuckDuckGoResultPage:
 
     RESULT_LINKS = (By.CLASS_NAME, 'eVNpHGjtxRBq_gLOfGDr')
     SEARCH_INPUT = (By.ID, 'search_form_input')
